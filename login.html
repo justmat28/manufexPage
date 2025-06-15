@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Manufex</title>
+    <link rel="stylesheet" href="css/login/login.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="background imagen1 visible"></div>
+        <div class="background imagen2"></div>
+    </div>
+
+    <div class="contenedor-formulario">
+        <img src="images/logoEmpresa.png" alt="Logo Manufex" class="logo">
+        <form action="login.php" method="POST">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
