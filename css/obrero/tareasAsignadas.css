@@ -1,0 +1,64 @@
+/* Solo afecta al contenedor de tareas asignadas */
+#contenedor-tareas {
+    font-family: Arial, sans-serif;
+    padding: 16px;
+    background-color: #f4f4f4;
+}
+
+#contenedor-tareas h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contenedor-tareas table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contenedor-tareas th,
+#contenedor-tareas td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+
+#contenedor-tareas th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#contenedor-tareas tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#contenedor-tareas form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor-tareas select {
+    padding: 4px 8px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#contenedor-tareas input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contenedor-tareas input[type="submit"]:hover {
+    background-color: #45a049;
+}

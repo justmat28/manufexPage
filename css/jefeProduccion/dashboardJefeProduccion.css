@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.contenedor-bienvenida {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contenedor-bienvenida h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contenedor-bienvenida p {
+    color: #555;
+}

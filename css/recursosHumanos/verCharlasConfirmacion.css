@@ -1,0 +1,36 @@
+.confirmacion-envio {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #e6f4ea;
+    border: 1px solid #c9e2d0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirmacion-envio h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.confirmacion-envio p {
+    font-size: 18px;
+    color: #333;
+}
+
+.boton-volver {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.boton-volver:hover {
+    background-color: #45a049;
+}

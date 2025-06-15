@@ -1,0 +1,64 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #4CAF50;
+}
+
+form {
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkbox-item {
+    margin: 6px 0;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.mensaje-exito {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}

@@ -1,0 +1,34 @@
+.contenedor-charlas {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contenedor-charlas h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tabla-charlas {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tabla-charlas th, .tabla-charlas td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabla-charlas th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.tabla-charlas tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

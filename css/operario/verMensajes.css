@@ -1,0 +1,44 @@
+.contenedor-mensajes {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-mensajes h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.sin-mensajes {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin-top: 20px;
+}

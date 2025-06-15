@@ -1,0 +1,21 @@
+.contenedor-horario {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-horario h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.imagen-horario img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}

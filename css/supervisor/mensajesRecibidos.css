@@ -1,0 +1,84 @@
+.contenedor-mensajes {
+    max-width: 900px;
+    margin: 80px auto 40px auto; /* Separación desde barra superior */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+ul.lista-mensajes {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.lista-mensajes li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+ul.lista-mensajes li strong {
+    color: #4CAF50;
+}
+
+ul.lista-mensajes li hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.mensaje-vacio {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
+.contenedor-mensajes {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.lista-mensajes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-mensajes li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: 4px solid #4CAF50;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 10px; /* <-- aquí puedes reducir esto a 5px o menos */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    font-family: Arial, sans-serif;
+}
+
+.lista-mensajes li:last-child {
+    margin-bottom: 0;
+}
+
+.lista-mensajes strong {
+    color: #4CAF50;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.mensaje-vacio {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}

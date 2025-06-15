@@ -1,0 +1,18 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.badge {
+    font-size: 0.9rem;
+}

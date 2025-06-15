@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-mensaje {
+    max-width: 700px;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+}
+
+.contenido-mensaje h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+form label {
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-top: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
